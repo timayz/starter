@@ -6,8 +6,8 @@ license = "AGPL-3.0"
 
 [dependencies]
 starter-feed = { path = "../feed", version = "0.7.0" }
-axum = "0.7.4"
-anyhow = "1.0.80"
+axum = "0.7.5"
+anyhow = "1.0.81"
 tokio = "1.36.0"
 tracing = "0.1.40"
 serde = "1.0.197"
@@ -19,12 +19,12 @@ i18n-embed-fl = "0.8.0"
 once_cell = "1.19.0"
 unic-langid = "0.9.4"
 twa-jwks = { version = "1.2.15", features = ["axum"] }
-sqlx = { version = "0.7.3", features = [ "runtime-tokio", "tls-rustls", "postgres", "chrono", "uuid", "json" ] }
+sqlx = { version = "0.7.4", features = [ "runtime-tokio", "tls-rustls", "postgres", "chrono", "uuid", "json" ] }
 evento = { version = "0.10.2", features = ["pg"] }
 evento-query = { version = "0.10.2", features = ["pg"] }
 evento-axum = { version = "0.10.2" }
-validator = { version = "0.16.1", features = ["derive"] }
-chrono = { version = "0.4.34", features = ["unstable-locales"] }
+validator = { version = "0.17.0", features = ["derive"] }
+chrono = { version = "0.4.35", features = ["unstable-locales"] }
 pikav-client = "0.20.14"
 askama = { version = "0.12.1", default-features = false, features = ["with-axum", "mime", "mime_guess"] }
 askama_axum = "0.4.0"
